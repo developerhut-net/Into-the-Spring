@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CSRF Form Example</title>
+</head>
+<body>
+    <h1>CSRF Form Submitted</h1>
+    
+    <label>Data:</label>
+    <span th:text="${data}"></span> <br>
+    
+    <a th:href="@{/form}">Back to Form</a>
+    
+</body>
+</html>
